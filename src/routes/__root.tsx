@@ -89,10 +89,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       {
         property: "og:description",
         content:
-          "Draft emails, organize tasks, and chat with an AI assistant — no account, session-only.",
+          "Draft professional emails, plan your work, and chat with an AI workplace assistant. No sign-in, private and session-only.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "WorkAI — AI Workplace Productivity Assistant" },
+      { name: "twitter:description", content: "Draft professional emails, plan your work, and chat with an AI workplace assistant. No sign-in, private and session-only." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/e4459d5d-5262-4688-ab9f-df6dce962ed6/id-preview-c40a31ee--245bfd1e-0026-4fb0-9468-ab64a19a14d7.lovable.app-1783637218086.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/e4459d5d-5262-4688-ab9f-df6dce962ed6/id-preview-c40a31ee--245bfd1e-0026-4fb0-9468-ab64a19a14d7.lovable.app-1783637218086.png" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
